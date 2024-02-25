@@ -140,7 +140,7 @@ int main()
     // cosine similarity between the user and all other users in train.csv who have rated the item
     
     ifstream test_file("test.csv");
-    ofstream output_file("predictions12.csv");
+    ofstream output_file("predictions.csv");
     output_file <<"ID"<<","<<"Predicted" << '\n';
     getline(test_file, line);
     int count = 0;
