@@ -171,7 +171,7 @@ int main()
         double predicted_rating = 0;
         
         int border;
-        int top = 50;
+        int top = 30;
         if (top > similarities.size()) {
             border = similarities.size();
         }
